@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+ {% load static %}
+<html>
+ 
+<head>
+    <link rel="stylesheet" href="{% static 'users/css/home.css' %}">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <title>
+        YOGA TRAINING CENTRE
+    </title>
+</head>
+ 
+<body>
+    <div class="banner">
+        <div class="navbar">
+            <p class="logo">YOGA </p>
+            <div class="container">
+            <ul >
+                <li>
+                    <a href="http://127.0.0.1:8000/home2/">HOME</a>
+                </li>
+                <li>
+                    <a href="http://127.0.0.1:8000/about/">ABOUT</a>
+                </li>
+                <li>
+                    <a href="http://127.0.0.1:8000/classes/">CLASSES</a>
+                </li>
+                <li>
+                    <a href="http://127.0.0.1:8000/contact/">CONTACT</a>
+                </li>
+            </ul>
+            </div>
+            <a href="http://127.0.0.1:8000" class="form-control">LOGOUT &nbsp {{answer}} </a>
+        </div>
+        <div class="content">
+            <h5>LOOSE YOURSELF IN AMBIENCE </h5><br>
+            <h5>& ATMOSPHERE</h5>
+            <br>
+            <div>
+                <button type="button" class="video"><span></span> Watch Video</button>
+            </div>
+        </div>
+    </div>
+
+<div class="back">
+    <div class="intro">
+        {% load static %} <img src= "{% static "users/images/images.png" %}">
+        <p class="mini-heading">What keeps pushing us</p>
+        <p class="second-heading">CLEAR MIND & BODY</p>
+        <p class="main-content">Modern yoga consists of a range of techniques including asanas (postures) and meditation derived from some of the philosophies, teachings and practices of the Yoga school.
+            Some versions of modern yoga contain reworkings of the ancient spiritual tradition, and practices vary from wholly secular, for exercise and relaxation, through.</p>
+    </div>
+
+    <div class="picture">
+        {% load static %}<img src= "{% static "users/images/pose2.jfif" %}" width="350px" height="450px"><br>
+    </div>
+</div>
+    <div class="classes">
+        {% load static %} <img src= "{% static "users/images/mat.png" %}" width="50px" height="50px"><br>
+        <p>OUR CLASSES</p>
+        <p class="desc"> A meditative means of discovering dysfunctional perception and cognition, as well as overcoming it to release any suffering, find inner peace and salvation.</p>
+    </div>
+    <div class="options">
+        
+                <a href="#">
+                    <div class="categories">
+                        {% load static %} <img src="{% static "users/images/hot yoga.jpg" %}" class="item-image">
+                    <p class="image-title">HOT YOGA</p>
+                    </div>
+                </a>
+                
+                
+            
+                <a href="#">
+                    <div class="categories">
+                        {% load static %} <img src= "{% static "users/images/meditation.jfif" %}" class="item-image">
+                    <p class="image-title">MEDITATION YOGA</p>
+                    </div>
+                </a>
+                
+           
+                <a href="#">
+                    <div class="categories">
+                        {% load static %} <img src="{% static "users/images/aerial.jfif" %}" class="item-image" >
+                    <p class="image-title">ARIEL YOGA</p>
+                    </div>
+                </a>
+                
+        
+                <a href="#">
+                    <div class="categories">
+                        {% load static %} <img src= "{% static "users/images/basic.jpg" %}" class="item-image">
+                    <p class="image-title">BASIC YOGA</p>
+                    </div>
+                </a>     
+    </div>
+    
+        <p class="subscribe-content">SUBSCRIBE</p>
+        <p class="sub-content">Get updates about new classes</p>  
+    <div class="box">
+        <form action="#">
+            <div class="form-box">
+                <input type="text" name="emailaddress" placeholder="Enter your email">
+                <button type="submit" class="subcribe">Subscribe</button>
+            </div>
+        </form>
+    </div>
+
+
+    <footer class="footer">
+        <div class="containertwo">
+            <div class="rowtwo">
+    <div class="footer-col">
+        <h4>ABOUT THE YOGAS</h4>
+        <p>Far far away, behind the word mountains, <br>
+            far from countries Vokalia and Consonantia, <br>
+            there live the blind texts. Separated they.</p>
+    </div>
+    <div class="footer-col"> 
+        <h4>CONTACT INFO</h4>
+        <ul>
+            <li>Address:<br>
+                34 Street Name, City Name Here, United States</li>
+            <li> Telephone:<br>
+                +1 242 4942 290</li>
+            <li> Email:<br>
+                info@yourdomain.com</li>
+        </ul>
+    </div>
+
+    <div class="footer-col"> 
+        <h4>QUICK LINKS</h4>
+        <ul>
+            <li><a href="http://127.0.0.1:8000/about/">About</a>
+                </li>
+            <li><a href="#">Terms of use</a>
+                </li>
+            <li><a href="#">Disclaimer</a>
+                </li>
+            <li><a href="http://127.0.0.1:8000/contact/">Contact Us</a>
+                </li>
+            
+        </ul>
+    </div>
+    <div class="footer-col">
+        <h4>follow us</h4>
+        <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+    </div>
+</div>
+</div>
+<br>
+
+<p class="copy">Copyright © 2022. All Rights Reserved.</p>
+</footer>
+
+</body>
+ 
+</html>

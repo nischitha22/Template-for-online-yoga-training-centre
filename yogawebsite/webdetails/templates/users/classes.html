@@ -1,0 +1,157 @@
+
+<!DOCTYPE html>
+{% load static %}
+<html>
+ 
+<head>
+    
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="{% static 'users/css/contact.css' %}">
+    <link rel="stylesheet" href="{% static 'users/css/classes.css' %}">
+    <script type="text/javascript" src="{% static 'users/contact.js' %}"></script>
+
+    <title>
+        YOGA TRAINING CENTRE
+    </title>
+</head>
+ 
+<body>
+    <div class="banner">
+        <div class="navbar">
+            <p class="logo">YOGA </p>
+            <div class="container">
+            <ul >
+                <li>
+                    <a href="http://127.0.0.1:8000/">HOME</a>
+                </li>
+                <li>
+                    <a href="http://127.0.0.1:8000/about/">ABOUT</a>
+                </li>
+                <li>
+                    <a href="#">CLASSES</a>
+                </li>
+                <li>
+                    <a href="http://127.0.0.1:8000/contact/">CONTACT</a>
+                </li>
+            </ul>
+            </div>
+            <a href="http://127.0.0.1:8000/" class="form-control">LOGOUT</a>
+        </div>
+        <div class="content">
+            <h5>OUR CLASSES </h5><br>
+        </div>
+    </div>
+
+<div class="mainsection">
+<div class="flex-container">
+    
+        <div class="flex-item">
+            {% load static %} <img src="{% static "users/images/hot yoga1.jfif" %}" width="400px" height="300px">
+        </div>
+        <div class="flex-item fg ">
+            <h1>HOT YOGA</h1>
+            <p class="timings"> 8:30AM - 9:00AM </p>
+            <p class="description"> Hot yoga is a vigorous form of yoga performed in a very warm and humid studio. There are many different types of hot yoga classes. During the Bikram form of hot yoga, the room is heated to approximately 105 F (40 C) and has a humidity of 40 percent.</p><br>
+            <button type="button" class="but"><a href="http://127.0.0.1:8000/contact/">BOOK NOW</a></button>
+        </div>
+</div>
+
+<div class="flex-container2">
+    <div class="flex-item1">
+        <h1>MEDITATION YOGA</h1>
+        <p class="timings"> 9:30AM - 10:00AM </p>
+        <p class="description"> Yoga meditation combines the benefits of yoga's physical exercises with the positive energy of meditation practice. It's also one of the most accessible meditations for many people to do. Yoga meditation may help you achieve better mental health and overall wellbeing.</p><br>
+        <button type="button" class="but"><a href="http://127.0.0.1:8000/contact/">BOOK NOW</a></button>
+    </div>
+    <div class="flex-item1">
+        {% load static %} <img src="{% static "users/images/meditation.jfif" %}" width="400px" height="300px">
+        
+    </div>
+</div>
+
+<div class="flex-container3">
+    <div class="flex-item2">
+        {% load static %} <img src="{% static "users/images/aerial.jfif" %}" width="400px" height="300px">
+    </div>
+    <div class="flex-item2">
+        <h1>AERIEL YOGA</h1>
+        <p class="timings"> 8:30AM - 9:00AM </p>
+        <p class="description"> A combination of the arts and athletics, aerial yoga offers several physical and psychological benefits: Improved flexibility, stability, and balance. A 2019 study observed that aerial athletes have exceptional flexibility, balance, and strength </p><br>
+        <button type="button" class="but"><a href="http://127.0.0.1:8000/contact/">BOOK NOW</a></button>
+    </div>
+</div>
+
+<div class="flex-container4">
+    <div class="flex-item3">
+        <h1>BASIC YOGA</h1>
+        <p class="timings"> 9:30AM - 10:00AM </p>
+        <p class="description"> Yoga improves strength, balance and flexibility. Slow movements and deep breathing increase blood flow and warm up muscles, while holding a pose can build strength.</p><br>
+        <button type="button" class="but" ><a href="http://127.0.0.1:8000/contact/">BOOK NOW</a></button>
+        
+    </div>
+    <div class="flex-item3">
+        {% load static %} <img src="{% static "users/images/basic.jpg" %}" width="400px" height="300px" >
+    </div>
+</div>
+</div>
+        
+
+
+
+<footer class="footer">
+    <div class="containertwo">
+        <div class="rowtwo">
+<div class="footer-col">
+    <h4>ABOUT THE YOGAS</h4>
+    <p>Far far away, behind the word mountains, <br>
+        far from countries Vokalia and Consonantia, <br>
+        there live the blind texts. Separated they.</p>
+</div>
+<div class="footer-col"> 
+    <h4>CONTACT INFO</h4>
+    <ul>
+        <li>Address:<br>
+            34 Street Name, City Name Here, United States</li>
+        <li> Telephone:<br>
+            +1 242 4942 290</li>
+        <li> Email:<br>
+            info@yourdomain.com</li>
+    </ul>
+</div>
+
+<div class="footer-col"> 
+    <h4>QUICK LINKS</h4>
+    <ul>
+        <li><a href="http://127.0.0.1:8000/about/">About</a>
+            </li>
+        <li><a href="#">Terms of use</a>
+            </li>
+        <li><a href="#">Disclaimer</a>
+            </li>
+        <li><a href="http://127.0.0.1:8000/contact/">Contact Us</a>
+            </li>
+        
+    </ul>
+</div>
+<div class="footer-col">
+    <h4>follow us</h4>
+    <div class="social-links">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+</div>
+</div>
+</div>
+<br>
+
+<p class="copy">Copyright © 2022. All Rights Reserved.</p>
+</footer>
+    
+    
+    
+    
+</body>
+ 
+</html>
